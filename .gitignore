@@ -1,0 +1,64 @@
+# Các file và thư mục liên quan đến hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Các file log
+*.log
+logs/
+
+# Các file cấu hình IDE
+.idea/
+.vscode/
+*.suo
+*.user
+
+# Các file tạm thời
+*.tmp
+*.temp
+*.swp
+*~
+
+# Các file môi trường
+.env
+.env.local
+.env.*.local
+
+# --- Thư mục contracts ---
+# Các file build của Hardhat
+contracts/artifacts/
+contracts/cache/
+contracts/typechain/
+contracts/typechain-types/
+
+# Các file build của Foundry (nếu sử dụng)
+contracts/out/
+contracts/cache/
+
+# Các file hợp đồng thông minh không cần commit
+contracts/*.dbg.json
+contracts/*.t.sol
+contracts/*.test.sol
+
+# --- Thư mục frontend (Next.js) ---
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Các file build và cache của Next.js
+frontend/.next/cache/
+frontend/.next/static/chunks/
+frontend/.next/static/development/
+
+# Các file coverage
+coverage/
+.coverage
+*.cover
+
+# Các file dữ liệu nhạy cảm
+*.pem
+*.key
+*.cert
+*.pfx

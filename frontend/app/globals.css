@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply bg-neutral-950 text-neutral-100;
+  }
+}
+
+@layer components {
+  .card { @apply rounded-2xl bg-neutral-900/70 border border-neutral-800 p-5 shadow-lg; }
+  .btn { @apply inline-flex items-center justify-center rounded-xl px-4 py-2 font-medium bg-brand hover:bg-brand/90 disabled:opacity-50 disabled:cursor-not-allowed transition; }
+  .input { @apply w-full rounded-xl bg-neutral-800 border border-neutral-700 px-3 py-2 outline-none focus:ring-2 focus:ring-brand/60; }
+  .label { @apply text-sm text-neutral-300; }
+  .muted { @apply text-neutral-400 text-sm; }
+  .grid-list { @apply grid gap-3 sm:grid-cols-2; }
+}

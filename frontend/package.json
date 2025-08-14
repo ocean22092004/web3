@@ -1,0 +1,30 @@
+{
+  "name": "krypto-frontend",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "tailwindcss -v >/dev/null 2>&1 || echo 'Tailwind will be resolved by Next.js'"
+  },
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "latest",
+    "@tailwindcss/postcss": "^4.1.11",
+    "@tanstack/react-query": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "viem": "latest",
+    "wagmi": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}
