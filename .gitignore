@@ -39,6 +39,21 @@ contracts/*.dbg.json
 contracts/*.t.sol
 contracts/*.test.sol
 
+# Các file build của Hardhat
+contracts_test/artifacts/
+contracts_test/cache/
+contracts_test/typechain/
+contracts_test/typechain-types/
+
+# Các file build của Foundry (nếu sử dụng)
+contracts_test/out/
+contracts_test/cache/
+
+# Các file hợp đồng thông minh không cần commit
+contracts_test/*.dbg.json
+contracts_test/*.t.sol
+contracts_test/*.test.sol
+
 # --- Thư mục frontend (Next.js) ---
 frontend/.next/
 frontend/out/
